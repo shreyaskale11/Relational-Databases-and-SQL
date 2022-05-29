@@ -1,0 +1,9 @@
+sID,sName,GPA,sID,sName,GPA
+654,Amy,3.9,123,Amy,3.9
+876,Irene,3.9,123,Amy,3.9
+456,Doris,3.9,123,Amy,3.9
+654,Amy,3.9,456,Doris,3.9
+876,Irene,3.9,456,Doris,3.9
+765,Jay,2.9,567,Edward,2.9
+876,Irene,3.9,654,Amy,3.9
+789,Gary,3.4,543,Craig,3.4
