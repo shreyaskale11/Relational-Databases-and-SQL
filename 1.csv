@@ -1,9 +1,3 @@
-```
-select S.sID, S.sName, S.GPA, A.cName, A.major, C.enrollment , A.decision
-from Student S, College C, Apply A
-where A.sID = S.sID and A.cName = C.cName;
-
-```
 
 sID,sName,GPA,cName,major,enrollment,decision
 123,Amy,3.9,Cornell,EE,21000,Y
