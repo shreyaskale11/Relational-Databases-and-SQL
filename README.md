@@ -29,7 +29,7 @@ create table College(cName text, state text, enrollment int);
 create table Student(sID int, sName text, GPA real, sizeHS int);
 create table Apply(sID int, cName text, major text, decision text);
 ```
-##### Introduce table variables 
+
 
 Application information
 ```
@@ -82,6 +82,20 @@ where sID in (select sID from Apply where major = 'CS')
   and sID not in (select sID from Apply where major = 'EE');
 ```
 [Result](https://github.com/shreyaskale11/Relational-Databases-and-SQL/blob/main/result/6.csv)
+
+IDs and names of students applying to CS
+```
+select  sID ,sName
+from student 
+where sID in (select sID from Apply  where major = 'CS' )
+```
+
+Colleges such that some other college is in the same state
+```
+select cName ,state
+from college c1
+where exists (select * from college c2 where c1.state=c2.state and C2.cName <> C1.cName ) 
+```
 
 
 
