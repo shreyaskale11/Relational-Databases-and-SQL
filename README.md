@@ -15,3 +15,4 @@ The Basic SELECT Statement
  SELECT - where to return
  FROM - relation
  WHERE - combine filter
+
