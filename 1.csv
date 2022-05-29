@@ -1,0 +1,20 @@
+sID,sName,GPA,cName,major,enrollment,decision
+123,Amy,3.9,Cornell,EE,21000,Y
+123,Amy,3.9,Berkeley,CS,36000,Y
+123,Amy,3.9,Stanford,EE,15000,N
+123,Amy,3.9,Stanford,CS,15000,Y
+234,Bob,3.6,Berkeley,biology,36000,N
+345,Craig,3.5,Cornell,EE,21000,N
+345,Craig,3.5,Cornell,CS,21000,Y
+345,Craig,3.5,Cornell,bioengineering,21000,N
+345,Craig,3.5,MIT,bioengineering,10000,Y
+678,Fay,3.8,Stanford,history,15000,Y
+987,Helen,3.7,Berkeley,CS,36000,Y
+987,Helen,3.7,Stanford,CS,15000,Y
+876,Irene,3.9,MIT,"marine biology",10000,N
+876,Irene,3.9,MIT,biology,10000,Y
+876,Irene,3.9,Stanford,CS,15000,N
+765,Jay,2.9,Cornell,psychology,21000,Y
+765,Jay,2.9,Cornell,history,21000,N
+765,Jay,2.9,Stanford,history,15000,Y
+543,Craig,3.4,MIT,CS,10000,N
